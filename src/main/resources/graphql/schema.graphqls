@@ -1,0 +1,14 @@
+type Query {
+    getClientsByEmail(email: String): [Client]
+}
+
+type Client {
+    numeroDocumento: Int
+    tipoDocumento: String
+    nombre: String
+    saldoTotal: Int
+    region: String
+    estadoGestion: String
+    tipificacion: String
+    segmento: String
+}
